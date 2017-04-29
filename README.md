@@ -1,1 +1,11 @@
-# Conceitos-mem-ria-ram-mem-ria-rom-swap-e-pagina-o-de-mem-ria.
+Jefferson Mendes Medrado - GTI III Noturno.
+
+Atividade 2 - Criar texto explicando os conceitos memória ram, memória rom, swap e paginação de memória.
+
+RAM - Significa random access memory, ou seja, memória de acesso aleatório. Este nome não dá uma boa idéia da finalidade deste tipo de memória, talvez fosse mais correto chamá-la de RWM (read and write memory, ou memória para leitura e escrita). Entretanto o nome RAM continua sendo utilizado por questão de tradição. Em operação normal, o computador precisa fazer não apenas o acesso a dados e instruções, através de leituras na memória, mas também guardar resultados, através de operações de escrita na memória. Além de permitir leituras e escritas, a RAM tem outra característica típica, trata-se de uma memória volátil, ou seja, seus dados são apagados quando é desligada. Por isso quando desligamos o computador e o ligamos novamente, é preciso carregar o sistema operacional.
+
+ROM - significa read only memory, ou seja, memória para apenas leitura. É um tipo de memória que, em uso normal, aceita apenas operações de leitura, não permitindo a realização de escritas. Outra característica da ROM é que seus dados não são perdidos quando ela é desligada. Ao ligarmos novamente, os dados estarão lá, exatamente como foram deixados. Dizemos então que a ROM é uma memória não volátil. Alguns tipos de ROM aceitam operações de escrita, porém isto é feito através de programas apropriados, usando comandos de hardware especiais. Uma típica aplicação da ROM é o armazenamento do BIOS do PC, aquele programa que entra em ação assim que o ligamos. Este programa testa a memória, inicializa o hardware e inicia a carga do sistema operacional.
+
+Swap - No Linux, o swap é a memória virtual (também é conhecido como área de troca). A memória virtual funciona como uma extensão da memória RAM, que fica armazenada no disco. O porquê da memória swap precisar existir é simples: o sistema operacional precisa de memória para funcionar, e se a memória acabar, o sistema falha.
+
+Paginação de Memória - No contexto dos sistemas operacionais, a paginação da memória do computador é um processo de virtualização da memória que consiste na subdivisão da memória física em pequenas partições (frames), para permitir-lhe uma utilização mais eficiente. As frames da memória física correspondem a páginas de memória virtual.
