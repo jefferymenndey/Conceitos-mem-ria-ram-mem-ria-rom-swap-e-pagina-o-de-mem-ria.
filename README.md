@@ -1,0 +1,1 @@
+# Conceitos-mem-ria-ram-mem-ria-rom-swap-e-pagina-o-de-mem-ria.
